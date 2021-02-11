@@ -1,0 +1,127 @@
+#main .all-items h4.title{
+    font-size: 40px;
+    color: #000;
+    line-height: 47px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+#main h4.title::after{
+    content: " ";
+    display: block;
+    width: 600px;
+    height: 2px;
+    background-color:red;
+    margin-top: 5px;
+    
+}
+.filter {
+    background: white;
+    float: left;
+    width: 25%;
+    padding: 20px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+.filter .title-x {
+    line-height: 30px;
+    display: block;
+    text-align: center;
+    border: 1px solid #d9d9d9;
+    border-radius: 3px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.filter span.title {
+    color: #333;
+    font-size: 14px;
+    line-height: 45px;
+    display: block;
+    border-bottom: 1px solid #eee;
+    font-weight: 700;
+}
+
+.filter ul {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.filter ul li a {
+    text-decoration: none;
+    color: black;
+}
+.clear-with-height {
+    clear: both;
+}
+.moto-list{
+    margin-top: 30px;
+    float: right;
+    width: 74%;
+    margin-left: 1px;
+    background-color: white;
+    padding: 5px;
+    
+}
+.list-sort {
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 10px 12px;
+}
+.list-sort select{
+    margin-right: 20px;
+    margin-left: 5px;
+    font-size: 13px;
+    height: 30px;
+    width: 150px;
+}
+.list-item img{
+    width: 250px;
+    height: 141px;
+}
+.list-item .row{
+    margin-top: 10px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.list-item .row .col-md-4 a{
+    text-decoration: none;
+}
+.list-item .row .col-md-4 a h5,p.price{
+    text-align: center;
+    color: black;
+    
+}
+.list-item .row .col-md-4 a h5::after{
+    content: " ";
+    display: block;
+    width: 40px;
+    height: 5px;
+    background-color:red;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+.list-item .row .col-md-4:hover{
+    border-bottom: 4px solid red;
+}
+.list-item .row .col-md-4{
+    margin-top: 20px;
+}
+.list-sort .paging{
+    padding: 10px;
+    margin-left: 225px;
+}
+
+.list-sort .paging a{
+    padding: 8px 10px;
+    line-height: 10px;
+    margin-left: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+}
+.list-sort .paging a:hover{
+    color: white;
+    background: red;
+}
