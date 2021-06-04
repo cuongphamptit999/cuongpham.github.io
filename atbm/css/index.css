@@ -10,9 +10,43 @@ body {
 	background-attachment: fixed;
 }
 
+.container {
+    max-width: 1425px;
+    display: flex;
+    margin-top: 120px;
+}
+
+.main-upload-file{
+    width: 40%;
+}
+
+.thong-tin-nhom{
+    width: 28%;
+    background: rgba(255, 255, 255, 0.07);
+    box-shadow: 0 6px 43px 0 rgb(0 0 0 / 40%);
+    padding: 15px;
+    padding-bottom: 0px;
+    margin-right: 20px;
+}
+
+.thong-tin-nhom table{
+    color: white;
+}
+
+.list-file-handled{
+    width: 30%;
+    margin-left: 20px;
+    background: rgba(255, 255, 255, 0.07);
+    box-shadow: 0 6px 43px 0 rgb(0 0 0 / 40%);
+    padding: 15px;
+}
+
+.list-file-handled table{
+    color: white;
+}
+
 .header{
     text-align: center;
-    margin-top: 150px;
     margin-bottom: 30px;
 }
 
@@ -22,7 +56,7 @@ body {
 }
 
 .header span.text-logo{
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 650;
     color: white;
     text-shadow: 4px 4px 3px #000;
@@ -32,7 +66,7 @@ body {
 
 .main-upload{
     margin: 0 auto;
-    width: 30%;
+    width: 80%;
     background: rgba(255, 255, 255, 0.07);
     box-shadow: 0 6px 43px 0 rgb(0 0 0 / 40%);
     text-align: center;
@@ -128,4 +162,30 @@ input[type="submit"]{
 input[type="submit"]:hover {
 	color: #ffffff;
 	border-color: #00c6d7;
+}
+
+/* css thanh cuộn của bảng list file đã xử lý */
+.scrollbar {
+	padding: 10px;
+	height: 409px;
+	overflow-y: auto;
+}
+
+#style-1::-webkit-scrollbar {
+	width: 5px;
+	height: 10px;
+	border-radius: 10px;
+	background: rgba(255, 255, 255, 0.07);
+	-webkit-box-shadow: 0 6px 12px 0 rgb(37, 37, 37);
+	-moz-box-shadow: 0 6px 12px 0 rgb(37, 37, 37);
+	box-shadow: 0 6px 43px 0 rgba(0, 0, 0, 0.4);
+}
+
+#style-1::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background-color: rgba(0, 0, 0, 0.16);
+	border: 1px solid burlywood;
+	box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.4);
+	-webkit-box-shadow: 0 6px 12px 0 rgb(37, 37, 37);
+	-moz-box-shadow: 0 6px 12px 0 rgb(37, 37, 37);
 }
