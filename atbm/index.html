@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="check malware while up file exe">
+    <meta name="keywords" content="malware, file">
+    <meta name="author" content="ATBM">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap-4.0.css">
+    <link rel="stylesheet" type="text/css" href="/css/fontawesome.css">
+    <link rel="stylesheet" type="text/css" href="/css/index.css">
+
+    <!-- JavaScript -->
+    <script src="/js/jquery-3.4.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="/js/bootstrap-4.0.js"></script>
+    <script src="/js/fontawesome.js"></script>
+
+
+    <!-- ----------------- -->
+
+    <title>Web Demo</title>
+</head>
+
+<body>
+
+    <!-- MAIN -->
+    <div id="main">
+        <div class="header">
+            <img src="/img/logo.png" alt="logo">
+            <span class="text-logo">CHECK MALWARE</span>
+        </div>
+        <div class="main-upload">
+            <img src="/img/thumbprint.png" alt="img-upload">
+            <form action="/action_page.php" method="post">
+                <span class="css-name-file">
+                    <p id="fileName"></p><a href="javascript:void(0);" id="resetFile" onclick="deleteFile()"><i
+                            class="fas fa-times"></i></a>
+                </span>
+                <input type="file" id="myFile">
+                <label class="custom-input-file" for="myFile">Choose file</label>
+                <input type="submit" id="btnSubmit" value="Confirm upload">
+            </form>
+        </div>
+    </div>
+
+    <script src="/js/index.js"></script>
+
+</body>
+
+</html>
